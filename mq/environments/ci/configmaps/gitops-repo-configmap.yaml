@@ -7,11 +7,11 @@ metadata:
     type: git
   name: gitops-repo
 data:
-  branch: ${GIT_BRANCH}
+  branch: master
   host: github.com
-  org: ${GIT_ORG}
-  owner: ${GIT_ORG}
+  org: mq-demo-svo
+  owner: mq-demo-svo
   parentdir: .
   protocol: https
   repo: multi-tenancy-gitops-apps
-  url: https://github.com/${GIT_ORG}/multi-tenancy-gitops-apps.git
+  url: https://github.com/mq-demo-svo/multi-tenancy-gitops-apps.git
